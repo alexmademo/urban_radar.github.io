@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Urban Radar</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.js"
+        integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+        crossorigin="anonymous"></script>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>  
+        <script src="script/PapaParse-4.4.0/papaparse.min.js"></script>
+        <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+        
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+        <link rel="stylesheet" href="animate.min.css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" >
+        <link href="style/style.css" rel="stylesheet">
+        
+    </head>
+    
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        
+        <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top" id="changenav">
+            <a class="navbar-brand" href="#" id="headertext">
+                <strong>
+                    Urban Radar
+                </strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section01" id="abouttext">
+                            ABOUT
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section02" id= "servicetext">
+                            SERVICE
+                        </a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#howitworksid" id="featurestext">
+                            FEATURES
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section04" id= "econtacttext">
+                            CONTACT
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="signuptext" >
+                            LOG IN
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="container-fluid" id="imageback">
+            <div class="row" id="intropage">
+                <div class= "col-md-12">
+                    <h1 class="text-center" id="heading" >
+                        <strong>
+                            ARE YOU CONNECTED TO YOUR CITY?
+                        </strong>
+                    </h1>
+                </div>
+            </div>
+        </div>
+        
+        
+        <section id="section01">
+            <div class = "container " id= "firsttext">
+                <div class = "row text-center">
+                    Connection with our cities is a vital part of our experience in the urban environment. How rich this experience is, depends on a number of factors ranging from ease of mobility, amount of activities on the streets, to how much one feels like a part of the city. 
+                </div>
+            </div>
+        </section>
+        
+        
+        <section class = "Intropage">
+            <div class="container " id="introsec">
+                <h3 class= "text-center" ><strong></strong></h3>
+                <div class="row introrow ">
+                    <div class="col-3  forhover ">
+                            <img class="img-fluid image" src ="graphics/frida-aguilar-estrada-395833-unsplash.jpg" alt="Avatar" style="width:100%">
+                            <div class="middle">
+                                <div class="text">Are you informed?</div>
+                            </div>   
+                    </div>
+                    <div class="col-3 forhover ">
+                        <img class="img-fluid image" src ="graphics/nicole-adams-198431-unsplash.jpg" alt="Avatar" style="width:100%">
+                        <div class="middle">
+                            <div class="text">Are you empowered?</div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-3 forhover ">
+                        <img class="img-fluid image" src ="graphics/yogurt-yogurt-664613-unsplash.jpg" alt="Avatar" style="width:100%">
+                        <div class="middle">
+                            <div class="text">Is your city walkable?</div>
+                        
+                        </div>
+                    </div>
+                    <div class="col-3 forhover">
+                        <img class="img-fluid image" src ="graphics/feliphe-schiarolli-410660-unsplash.jpg" alt="Avatar" style="width:100%">
+                        <div class="middle">
+                            <div class="text">Is your city active?</div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section>
+            <div class = "container">
+                <div class = "row">
+                    <div class= "col-8 text-center giftext">
+                        <img src="graphics/ezgif.com-gif-maker%20(1).gif" alt="animated">
+                    
+                    </div>
+                                    
+                </div>
+            </div>
+        </section>
+
+        <section id= "section02">
+            <div class="container-fluid">
+                <div class= "row" id="imageapp" >
+                    <div class = "col-7 ">
+                        <h3 id="apptext">
+                            <strong>
+                                URBAN RADAR
+                            </strong>
+                        </h3>
+                        <h6 id= "apptext2">
+                            Bringing the city to you. One step at a time.
+                        </h6>
+                        <p class ="text-left" id= "apptext3">
+                            This one of a kind application keeps you in touch with your ever changing city-or better yet-your personal neighbourhood, empowering you as a vital participant of your community. 
+                        </p>
+                        <button class="btn"><i class="fa fa-download"></i> Install</button>
+                        <a href="map/from_scratch_5.html"><button class="btn btnnew"> Explore</button></a>
+ 
+                    </div>
+                    <div class = "col-5 text-center" id="phoneapp">
+                        <img class= "img-fluid" src="graphics/urbanradar_1.png">    
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section class="howitworks" id="section03">
+            <div class="container" id="howitworksid">
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="text-center subheading">
+                            <strong>
+                                How it works
+                            </strong>
+                        </h4>
+                    </div>
+                </div>
+                <div class="row">
+                <div class = "col-12">
+                     <div id="demo" class="carousel slide" data-ride="carousel">
+
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo" data-slide-to="1"></li>
+                            <li data-target="#demo" data-slide-to="2"></li>
+                        </ul>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item text-center active">
+                                <img src="graphics/phone01-50.png" alt="Chicago" width="1100" height="500">
+
+                            </div>
+                            <div class="carousel-item text-center">
+                                <img src="graphics/phone01-52.png" alt="Chicago" width="1100" height="500">
+                            </div>
+                            <div class="carousel-item text-center">
+                                <img src="graphics/phone01-53.png" alt="New York" width="1100" height="500">
+                            </div>
+                            <div class="carousel-item text-center">
+                                <img src="graphics/phone01-51.png" alt="New York" width="1100" height="500">
+                            </div>
+                        </div>
+
+                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            
+        <section class="howitworks">
+            <div class="container" id="howitworksid">
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="text-center subheading">
+                            <strong>
+                                Features
+                            </strong>
+                        </h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2 offset-2 htwicon text-center">
+                        <img class="img-fluid iconnew" src ="graphics/featuresicons-15.png">
+                        <p class="icontext">
+                            All services of your neighbourhood in one place filtered by your own preferences
+                        </p>
+                    </div>
+                    <div class="col-2 htwicon text-center">
+                        <img class="img-fluid iconnew" src="graphics/featuresicons-12.png">
+                        <p class="icontext">
+                            Connectivity with the services and your destinations around neighbourhood: real time public transport map
+                        </p>
+                    </div>
+                    <div class="col-2 htwicon text-center">
+                        <img class="img-fluid iconnew" src="graphics/featuresicons-14.png">
+                        <p class="icontext">
+                            Never miss a new place in your area and get vouchers for local activities
+                        </p>
+                    </div>
+                    <div class="col-2 htwicon text-center">
+                        <img class="img-fluid iconnew" src="graphics/featuresicons-13.png">
+                        <p class="icontext">
+                            Walkable neighbourhood brings vivid urban life and greener environment
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <section class= "businesspage" id="section04">
+            <div class="container-fluid" id="businesssection">
+                <div class="row">
+                    <div class= "col-5 offset-7 businessbox">
+                        <h1 class="text-left" id="headbiz" >
+                            <strong>
+                                Urban Radar
+                            </strong>
+                            for business
+                        </h1>
+                        <h3 id="biztext">
+                            Whether you are a start up or an expert, <strong>Urban Radar</strong> helps you connect with clients in your area
+                        </h3>
+                        <button class="btn" id="btnold"><i class="fa fa-download"></i> Install</button>
+                        <a href="map/from_scratch_5.html"><button class="btn btnnew"> Explore</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section class="footersec">
+            <div class="footer">
+                <p id= "footheader">Get in touch with us today</p>
+                <div class ="container text-center">
+                    <div class= "row text-center" id="footicons">
+                        
+                        <div class= "col-1 offset-2"><img class="img-fluid footicon" src ="graphics/if_logo_social_media_location_1071016.png"></div>
+                        <div class= "col-1"><img class="img-fluid footicon" src ="graphics/if_logo_social_media_phone_1078687.png"></div>
+                        <div class= "col-1"><img class="img-fluid footicon" src ="graphics/if_mail_email_envelope_send_message_1011335.png"></div>
+                        <div class= "col-1"><img class="img-fluid footicon" src ="graphics/if_we_chat_social_2492622.png"></div>
+                        <div class= "col-1"><img class="img-fluid footicon" src ="graphics/if_online_social_media_facebook_734386.png"></div>
+                        <div class= "col-1"><img class="img-fluid footicon" src ="graphics/if_twitter_online_social_media_734367.png"></div>
+                        <div class= "col-1"><img class="img-fluid footicon" src ="graphics/if_instagram_online_social_media_photo_734395.png"></div>
+                        <div class= "col-1"><img class="img-fluid footicon" src ="graphics/if_online_social_media_pinterest_734382.png"></div>
+                        
+                        
+                    </div>
+                
+                    
+                    
+                <p id= "footheader2">Copyright 2018. Created by Camille Feghali, Saule Gabriele Petraityte, and Venessa Williams</p>
+                
+                
+                </div>
+            </div>
+        </section>
+        
+        <script src="script/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,119 @@
+<html lang="en">
+    
+    <head>
+    
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Urban Radar - event</title>
+        
+        <script src="script/js-cookie-master/src/js.cookie.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
+        <script type="text/javascript" src="moment-develop/moment.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha14/js/tempusdominus-bootstrap-4.min.js"></script>
+<!--        <script src="script/js-cookie-master/js.cookie.js"></script>-->
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha14/css/tempusdominus-bootstrap-4.min.css" />
+        <link href="style/event_style.css" rel="stylesheet">
+
+        
+    </head>
+    
+    <body>
+    
+        <div class="container" id="formbox">
+            
+            <div class="col-10 newform">
+    <!--
+                <button type="button" class="btn">Basic</button>
+                <button type="button" class="btn btn-success green">Green</button>
+                <div class="lineChart"></div>
+    -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">Create your event</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row"> 
+                    <div class="col-12">
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <label for="formGroupExampleInput">Title of the event</label>
+                                <input type="text" class="form-control" name="title" id="title">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Description</label>
+                            <textarea class="form-control" name="shortdesc" id="shortdesc" required rows="3"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Contact email</label>
+                            <input type="text" class="form-control" name="email" id="email", required placeholder="name@example.com">
+                        </div>
+                    </div>
+                </div>
+
+<!--                calendar-->
+                
+                <div class="row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label class="control-label">Event start date</label>
+                            <div class="input-group date" id="datetimepicker1" data-target-input="nearest">
+                                <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker1" id="startdate">
+                                <div class="input-group-append" data-target="#datetimepicker1" data-toggle="datetimepicker">
+                                    <div class="input-group-text">
+                                        <i class="fa fa-calendar"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                        
+                            
+<!--                submit-->
+                
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <button type="button" class="btn" id="submit">Create</button>
+                    </div>
+                </div>    
+                
+                
+                
+                
+                
+            </div>
+        </div>
+            
+
+        <script src="script/firebase.js"></script>
+
+    </body>
+    
+</html>

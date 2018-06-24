@@ -1,0 +1,664 @@
+.card-header {
+    font-size: 14px;
+}
+
+.card-title {
+    margin-top:10px; 
+}
+
+#button_event{
+   
+    padding-bottom: 1px;
+    padding-top: 1px;
+    height: 50px;
+    width:180px;
+    margin-left:-20px;
+    
+}
+
+.card{
+   
+    width: 180px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left: 18PX;
+}
+.card-text {
+    font-size: 13px;
+    margin-left: 7px;
+}
+
+.card-title {
+    font-size: 15px;
+    margin-left: 7px;
+}
+
+.card-footer{
+    height: 50px;
+    width:180px;
+    
+    padding-bottom:1px;
+    padding-top: 1px;
+}
+
+.padder{
+    height:50px;
+}
+
+#signin {
+    margin-bottom:-300px; 
+    width:180px;
+    height: 50px;
+    
+    
+    
+}
+
+.radar {
+    width:180px;
+    padding-left: 2px;
+}
+#mapid{
+    height: 1000px;
+    width: 100%;
+}
+
+
+.container1 {
+    height: 20px;
+}
+
+/////////////////////////////////////////////////////////
+
+.body {
+    background-color: #E6E6E6;
+}
+
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index:100000;
+    background: none;
+   
+    }
+.navbar-inner{
+    background: transparent;
+}
+
+.nav-item{
+    
+        font-family:sans-serif;
+}
+#headertext{
+    color:white;
+    font-size:20px;
+    padding-left: 50px;
+    
+}
+#featurestext {
+    color: white;
+    font-size: 13px;    
+}
+
+#howitworkstext {
+    color: white;
+    font-size: 13px;   
+}
+
+#exploretext {
+     color: white;
+    font-size: 13px;       
+}
+
+#logintext {
+    color: white;
+    font-size: 13px;
+}
+
+#signuptext {
+    color: white;
+    font-size: 13px;
+}
+
+footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+}
+
+#heading {
+
+    margin-bottom: :50px;
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 70px;
+    font-family: 'Helvetica', sans-serif;
+    color: white;
+    
+}
+
+#tag {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top:20px;
+    font-family: 'Helvetica', sans-serif;
+    font-style:normal;
+    font-size: 25px;
+    color:white;
+}
+
+#subtag {
+    margin-left: 50px;
+    margin-right:100px;
+    margin-top: 20px;
+    font-family: 'Helvetica', sans-serif;
+    font-style:normal;
+    color: white;
+    font-size: 16px;
+}
+
+#imageback {
+    background-image:url(/Users/gabriele/Desktop/Venessa/UrbanApps/20180106/graphics/headerimage-04.png);
+    height:600px;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#intropage {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.img-fluid  {
+    
+    width: 100%;
+    padding: 0px;
+}
+
+#title {
+    font-size: 50;
+    font-family: 'Helvetica', sans-serif;
+}
+
+#signin {
+    background-color: rgba(255,255,255,0.95);
+    height: 350px;
+    margin-right:20px;   
+}
+
+.signupbox{
+  background-color: rgba(255,255,255,0.60);
+  padding: 40px;
+  margin-top: -250px;
+  height: 370px;
+    
+
+}
+
+#email {
+    padding-top: 20px;
+}
+
+#about {
+    margin-top: 100px;
+    
+}
+
+#introsec {
+    
+    margin-top: 50px;
+    margin-bottom: 50px; 
+}
+
+.center {
+    margin:50px;
+}
+
+#firsttext {
+    
+    margin-top: 50px;
+}
+
+.boldtext {
+    
+    margin-bottom: 50px;
+     
+}
+
+.boldtext2 {
+    margin-bottom: 50px;
+    padding-left: 50px;
+    
+}
+#boldwalk {
+    
+    color: darkred;
+    text-align: center;
+    padding-left: 450px;
+    margin-bottom: 20px;
+}
+
+#activetext01{
+    margin-bottom: 70px;
+    text-align: center;
+    padding-left: 50px;
+    
+    color: darkred;
+    
+}
+.abouttxt {
+    
+    margin-top: 70px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+
+ #bottoncol {padding-top: 50px;
+}
+
+#featuretitle {
+    margin-top: 50px;  
+}
+
+.feature04 {
+    padding-left: 20px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+.feature03 {
+    padding-right: 20px;
+    padding-left:20px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+.feature02 {
+    padding-right: 20px;
+    padding-left:20px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+.feature01 {
+    padding-right: 20px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    
+}
+
+
+#row02 {
+    margin-top: 40px;
+}
+
+
+#headbiz {
+    
+    padding-bottom:20px;
+    
+    font-size: 50px;
+    font-family: 'Helvetica', sans-serif; 
+}
+
+#biztext {
+    font-family: 'Helvetica', sans-serif;
+    font-size:200px,
+    
+}
+
+#business {
+    margin-top: 50px;
+    font-family: 'Helvetica', sans-serif;
+    font-style:oblique;
+    font-size: 100;
+    color: white;
+}
+    
+
+
+#businesssection {
+    background-image:url(/Users/gabriele/Desktop/Venessa/UrbanApps/20180106/graphics/newbizimage-16.png);
+    height:500px;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+
+.walktext {
+    padding-left: -50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.search {
+    margin-left: 2px;
+    margin-bottom: 5px;   
+}
+
+#radius {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.businessbox {
+    
+    height: 350px;
+    margin-top:80px;
+    
+    padding: 40px;
+    
+    color: white;  
+}
+
+
+
+.featuresrow {
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 170px;
+}
+
+
+.businesspage {
+    height: 350px;
+    margin-top: 50px;
+}
+
+
+.footertext {
+    font-family: 'Helvetica', sans-serif;
+    
+}
+
+
+#howitworksid {
+    
+    margin-top:50px;
+     
+}
+
+.outer-div {
+    
+    padding left:50px;
+    padding:30px
+}
+
+.inner-div {
+    
+  ;
+    margin:auto;
+     
+}
+#apptext {
+    padding-top: 200px;
+    font-size: 60px; 
+    padding-left: 80px;
+    color: white;
+}
+
+#apptext2 {
+    padding-top: 10px;
+    font-size: 30px; 
+    padding-left: 80px;
+    color: white;
+}
+
+#apptext3 {
+    padding-top: 10px;
+     
+    padding-left: 80px;
+    color: white;
+    
+}
+
+#imageapp {
+    height: 650px;
+    background-image: url(/Users/gabriele/Desktop/Venessa/UrbanApps/20180106/graphics/web_illustrations-02.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  
+}
+
+
+.iconnew {
+    width: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.icontext {
+    
+    font-size: 12px;
+}
+
+.subheading {
+    margin-bottom: 50px;
+}
+
+#phoneapp {
+    
+    padding-bottom: 100px;
+}
+
+
+.footer {
+    
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+#column_left {
+	background-color: #515151;
+}
+
+.nav-list li a {
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	cursor: pointer;
+	border-bottom: 1px solid #515151 !important;
+	color: #9d9d9d;
+}
+
+.nav-list > li > a {
+	color: white;
+	font-size: 14px;
+	padding-left: 13px !important;
+	border-bottom: 1px solid #585858;
+}
+
+.nav-list > li > a:hover {
+	background-color: #444444;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: lightgrey;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content4 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+-----------
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+.sidenav a {
+   width:200px;  
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: #e6e6e6;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: white;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+#sidebartext {
+    margin-left: 18px;
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+.newsfeedimg {
+    margin-top: 10px;
+    margin-left: 12px;
+    
+}
+
+.sidebartopic {
+    margin-left: 18PX;
+    width: 180PX;
+    margin-top: 30px;
+        margin-bottom: 20px;
+    font-size: 23px;
+    
+}
+
+.radarbutton {
+    border: ;
+}
+
+.leaflet-touch .leaflet-bar {
+    background-color: white;
+    opacity: 0.9;
+}
+
+.dropdown-btn{
+    border:0.5px solid;
+    border-color: darkgrey;
+    width:200px;
+}
+

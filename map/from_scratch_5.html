@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        
+        <title>Leaflet OSRM Example</title>
+        
+        <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
+        <script src="script/js-cookie-master/src/js.cookie.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> 
+        <script src="script/PapaParse-4.4.0/papaparse.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" >
+        <link href="style/from_scratch_5.css" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+        <link rel="stylesheet" href="style/leaflet-routing-machine.css" />
+        
+    </head>
+    
+    <body>
+
+       <div class ="container-fluid">
+           <div class = "row">
+                <div class ="col-2">
+                    <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:30%">
+                        <h3 class="w3-bar-item sidebartopic"><strong>Urban Radar</strong></h3>
+                        <div class="sidenav">
+                            <button class="dropdown-btn radarbutton">Select your radar 
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-container">
+                                <a href="#" class="radar" id="1">10 minutes</a>
+                                <a href="#" class="radar" id="2">20 minutes</a>
+                                <a href="#" class="radar" id="3">30 minutes</a>
+                            </div>
+                            <button class="dropdown-btn radarbutton">Select your interest 
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-container">
+                                <a href="#" class="foodButt tp">Food</a>
+                                <a href="#" class="tp">Shopping</a>
+                                <a href="#" class="cultureButt tp">Culture</a>
+                                <a href="#" class="tp">Entertainment</a>
+                                <a href="#" class="tp">Sports</a>
+                                <a href="#" class="tp">Ecology</a>
+                                <a href="#" class="healthButt tp">Health</a>
+                                <a href="#" class="educationButt tp">Education</a>
+                                <a href="#" class="transportButt tp">Transport</a>
+                                <a href="#" class="tp">Public Services</a>
+                            </div>
+                            <button class="dropdown-btn">Events 
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-container">
+                                <a href="#" data-toggle="popover" data-trigger="focus" data-placement="right" data-content="Click event location on the map to create an event">Create</a>
+                                <a href="#">View</a>
+                            </div>
+                            <button class="dropdown-btn">Witness 
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-container">
+                                <a href="#">Create</a>
+                                <a href="#">View</a>
+                            </div>
+                            <a href="#" id= "signin">Sign in</a>
+                            <h4 id="sidebartext">Newsfeed</h4>
+                            <div class="row">
+                                <div class ="col-12">
+                                    <div class ="ev" id="simplebox"></div>
+                                    <div class="padder"></div>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col-10">
+                    <div id="mapid"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="slidecontainer">
+              <input type="range" min="1" max="3000" value="1500" class="slider" id="myRange">
+              <p>Value: <span id="demo"></span></p>
+            </div>
+        </div>
+
+        <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+        <script src="script/leaflet-routing-machine.js"></script>
+        <script src="script/Control.Geocoder.js"></script>
+        <script src="script/config.js"></script>
+        <script src="script/control.js"></script>
+        <script src="script/from_scratch_5.js"></script>
+        
+    </body>
+</html>
